@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.titulosecond {
+  font-size: 35px;
+  text-align: left;
+  color: RGB(66, 73, 73);
+  padding-top: 5px;
+  margin-bottom: 5%;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+
+/*---------------ESTILOS FORMULARIO---------------*/
+.labelbuscar {
+  color: RGB(81, 90, 90);
+}
+.labelagregar {
+  width: 33.33%;
+  font-size: 20px;
+  text-align: left;
+}
+
+/*---------------ESTILOS FORMULARIO fechas y boton---------------*/
+input[type="date"] {
+  width: 20%;
+  margin-left: 1%;
+}
+.fechas {
+  width: 100%;
+}
+.btnver {
+  margin-left: 1%;
+}
+
+.btnbuscon {
+  margin-left: 0.4%;
+}
+
+/*input[type="submit"]:hover,[type="button"]:hover{
+   background-color: #79E0F6;
+   color:#04758D;
+   transition: 0.4s;
+   cursor: pointer;
+}*/
+
+/*------------------ESTILOS TABLAS-------------------*/
+table {
+  margin-top: 1%;
+  
+}
+th,
+td {
+  border: none;
+}
+/*------------------ESTILOS ICONOS-------------------*/
+.icondi {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  color: RGB(251, 252, 252);
+  background-color: RGB(46, 64, 83);
+  border-radius: 2px;
+  text-align: center;
+}
+.iconeliminar {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: RGB(251, 252, 252);
+  background-color: RGB(46, 64, 83);
+  text-align: center;
+  border-radius: 2px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  color: RGB(251, 252, 252);
+  background-color: RGB(46, 64, 83);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.icon:hover,
+.icondi:hover,
+.iconeliminar:hover {
+  background-color: RGB(251, 252, 252);
+  color: RGB(46, 64, 83);
+  transition: 0.4s;
+  cursor: pointer;
+  border-radius: 5px /*#2DB9D1*/;
+}
+.icon2 {
+  margin-top: 1%;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  color: RGB(251, 252, 252);
+  background-color: RGB(46, 64, 83);
+  font-size: 30px;
+  border-radius: 3px;
+}
+.icon2:hover {
+  background-color: RGB(214, 219, 223);
+  color: RGB(46, 64, 83);
+  transition: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/*------------------ESTILOS ALERTA DE ELIMINAR-------------------*/
+
+.total {
+  text-align: center;
+  color: RGB(104, 104, 104);
+  text-shadow: 3px 3px 3px #ababab;
+}
+.alerticon {
+  font-size: 35px;
+  margin-right: 1%;
+}
+.inicio{
+  font-size: 20px;
+  color: rgb(29, 36, 41);
+  text-decoration: none;
+  
+}
+.link a{
+  font-size: 20px;
+  color: rgb(43, 44, 44);
+  text-decoration: none;
+  transition: 0.2s;
+}
+.link a:hover{
+  
+  text-decoration: underline;
+  text-shadow: 5px 1px 2px rgba(150, 150, 150, 1);
+}
+
